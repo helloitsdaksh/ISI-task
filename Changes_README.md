@@ -2,11 +2,12 @@
 Python version: 3
 
 ### Setting up virtual environment
-* Install conda for package management: [conda miniforge](https://github.com/conda-forge/miniforge)
-* Please run this command running the further steps `conda config --set ssl_verify no`
-* Platform specific environment files are present in `envs` directory
-* Setup virtual env by running: `make setup-conda-env ENVIRONMENT=<platform name>`
-* Destroy conda env by running: `make destroy-conda-env`
+* Install conda for package management: conda miniforge
+* Please run this command running the further steps conda config --set ssl_verify no
+* Platform specific environment files are present in envs directory
+* Make sure you run every command from the root directory of the GitHub repo which is ./isi-table-understanding
+* Setup virtual env by running: make setup-conda-env ENVIRONMENT=<platform name>
+* Destroy conda env by running: make destroy-conda-env
 
 ### Running table-understanding pipelines
 * To run a pipeline: `make run PIPELINE=<pipeline name>`
