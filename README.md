@@ -50,8 +50,10 @@ Setup Process
 
    * RUN: `make run PIPELINE=psl`
      *   This actually starts running the code but gives out the error.
-       * `pydoc.ErrorDuringImport: problem in cell_classifier.psl_cell_classifier - ValueError: numpy.ndarray size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
-make: *** [run] Error 1`
+     
+   * **ERROR:**
+       * **`pydoc.ErrorDuringImport: problem in cell_classifier.psl_cell_classifier - ValueError: numpy.ndarray size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+make: *** [run] Error 1`**
        * **Not able to do further error debugging since not sure what exactly is going wrong.**
 
 4.   **Added Code for Successful Objective 1,2,3:** :
