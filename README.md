@@ -54,6 +54,10 @@ Setup Process
 make: *** [run] Error 1`
        * **Not able to do further error debugging since not sure what exactly is going wrong.**
 
-4.   **Added Code for Successful Objective 1,2,3:** 
+4.   **Added Code for Successful Objective 1,2,3:** :
+     * `data_preprocess.py`
+     * `Changes_README.md`
+     * `Changes_MakeFile`
+     * `Changes_mac_m1.yml`
  
  
